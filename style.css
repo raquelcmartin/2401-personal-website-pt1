@@ -1,0 +1,71 @@
+body {
+    margin: 0
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 4rem;
+    width: 100vw;
+
+    border: 1px solid black;
+    background-color: hotpink;
+}
+
+header>div {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+h1 {
+    margin-left: 1rem;
+    color: white;
+}
+
+nav > a {
+    margin-right: 1 rem;
+    font size: 1 rem;
+    color: white;
+    padding: 1rem;
+}
+
+/* ---- End of HEADER ---- */
+
+/* ---- Start of MAIN ---- */
+
+main {
+    min-height: 80vh;
+    min-width: 70vw;
+    background-color: rgb(241, 182, 196)
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body > div {
+    display: flex;
+}
+
+aside {
+    min-height: 80vh;
+    min-width: 10vw;
+    background-color: hotpink;
+}
+
+/* ----- End of MAIN ---- */
+
+footer {
+    width: 100vw;
+    background-color: hotpink;
+    height: 10vw;
+}
